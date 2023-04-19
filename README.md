@@ -8,5 +8,7 @@ Make sure that you have all the folders created prior to running it. I have not 
 Run directly or from command line. You can also use task scheduler to automatically sort your files.
 
 I suggest following on task scheduler;
+
 Trigger => At log on.
+
 Action => Start Python, Details => location of the script.
