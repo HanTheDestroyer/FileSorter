@@ -32,17 +32,17 @@ def sort_folders():
     torrent_extensions = (".torrent", ".tor", ".t", ".tix", ".torrentpart")
 
     # destinations
-    dir1 = Directory("image", r"C:\Users\Oguzhan\Images", image_extensions)
-    dir2 = Directory("video", r"C:\Users\Oguzhan\Videos", video_extensions)
-    dir3 = Directory("audio", r"C:\Users\Oguzhan\Audios", audio_extensions)
-    dir4 = Directory("doc", r"C:\Users\Oguzhan\Docs", doc_extensions)
-    dir5 = Directory("archive", r"C:\Users\Oguzhan\Archives", archive_extensions)
-    dir6 = Directory("code", r"C:\Users\Oguzhan\Codes", code_extensions)
+    dir1 = Directory("image", r"C:\Users\han\Images", image_extensions)
+    dir2 = Directory("video", r"C:\Users\han\Videos", video_extensions)
+    dir3 = Directory("audio", r"C:\Users\han\Audios", audio_extensions)
+    dir4 = Directory("doc", r"C:\Users\han\Docs", doc_extensions)
+    dir5 = Directory("archive", r"C:\Users\han\Archives", archive_extensions)
+    dir6 = Directory("code", r"C:\Users\han\Codes", code_extensions)
     destination_directories = [dir1, dir2, dir3, dir4, dir5, dir6]
 
     # sources
-    dir7 = Directory("variety", r"C:\Users\Oguzhan\Desktop")
-    dir8 = Directory("variety", r"C:\Users\Oguzhan\Downloads")
+    dir7 = Directory("variety", r"C:\Users\han\Desktop")
+    dir8 = Directory("variety", r"C:\Users\han\Downloads")
     source_directories = [dir7, dir8]
 
     for source in source_directories:
