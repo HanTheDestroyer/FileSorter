@@ -9,6 +9,8 @@ Run directly or from command line. You can also use task scheduler to automatica
 
 I suggest following on task scheduler;
 
+```
 Trigger => At log on.
 
 Action => Start Python, Details => location of the script.
+```
